@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Full Website</title>
+
+  <!-- Embedded CSS -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #0056b3;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 15px 20px;
+      display: block;
+    }
+    nav a:hover {
+      background-color: #003d80;
+    }
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    footer {
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    .hero {
+      text-align: center;
+      margin: 40px 0;
+    }
+    .hero img {
+      width: 300px;
+      height: auto;
+      border-radius: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Website</h1>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <h2>Hello, world!</h2>
+      <!-- Embedded image as base64 -->
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAM1BMVEXMzMyWlpbPz8/GxsbR0dHm5ubX19fT09P4+PjFxcXv7++oqKhHR0eLi4uwsLCtpaW6+vrn5+f0gN1OAAABYUlEQVR4nO3bS3KCMBRF0YWiG//+b6rGSoJCBfknZ4w25/u3F4fJRIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZI0lfvqa/5dPT1r2tw9N+5o+r9+wGq/vZ9i7r7AwWj/1wN8n4tfzDA5xk+z3dOxnX9q25sfsMG/eo1Oa/fQ4/k1s+ADp0cUvj67vZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkrH/AbRIH/8+P7u/AAAAAElFTkSuQmCC" alt="Hero Image">
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>This is a full website contained in one file. All CSS and images are embedded directly.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: myemail@example.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 My Full Website</p>
+  </footer>
+
+</body>
+</html>
